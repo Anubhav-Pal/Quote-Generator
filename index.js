@@ -2,6 +2,9 @@ let quote = document.getElementById('quote');
 let Author = document.getElementById('authorName');
 let button=document.getElementById('quote-btn');
 
+quote.innerText="He who is fixed to a star does not change his mind.";
+Author.innerText="Leonardo da Vinci";
+
 
 button.addEventListener('click',()=>{
 
